@@ -11,7 +11,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-    title: "My Doctor",
+    title: "My Doctor | Healthcare app",
     description: "A Healthcare appointment management system",
     icons: {
         icon: "/assets/favicon.svg",
@@ -32,7 +32,7 @@ export default function RootLayout({
                 )}
             >
                 <ThemeProvider attribute="class" defaultTheme="dark">
-                    {children}
+                    <main>{children}</main>
                 </ThemeProvider>
             </body>
         </html>
